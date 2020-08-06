@@ -1,8 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
-    border:1px solid grey;
+    border:1px solid grey; 
 }
 html{
     font-size:62.5%;
@@ -10,4 +15,63 @@ html{
 body{
     line-height:2;
     font-size:1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    color:black;
 }
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+nav{
+    display:inline-block;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:white;
+    border-radius:2rem;
+    text-align:center;
+    line-height:1;
+    font-size:1.2em;
+    padding:1rem;
+    height:auto;
+    width:20rem;
+}
+.plan{
+    display:inline-block;
+    background-color:#FF764E;
+}
+.guide{
+    display:inline-block;
+    padding:1.5%;
+    width:100%;
+    font-size:2rem;
+}
+.learn{
+    display:inline-block;
+    background-color:#5ED3EB;
+    margin:0 20%;
+}
+.here{
+    display:inline-block;
+    background-color:#FFCD69;
+}
+.stuff{
+    display:inline-block;
+    color:white;
+    background-color:#DDB9A3;
+    width: 85%;
+    padding:1%;
+    margin:5%;
+}
+.top img{
+    display:inline-block;
+    width:20%;
+    height:auto;
+    margin:5%;
+}
+.heading{
+    display:inline-block;
+    line-height:6rem;
+    margin:0 0 2% 8%;
+}
+
