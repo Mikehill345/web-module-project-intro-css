@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
@@ -7,19 +6,22 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    border:1px solid grey; 
 }
 html{
     font-size:62.5%;
 }
 body{
     line-height:2;
-    font-size:1.5rem;
+    font-size:2rem;
     font-family: 'Roboto Mono', monospace;
     color:black;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
+    text-align:center;
+    font-size:6rem;
+    padding:0 0 5% 0;
+    /* margin:5% 20% 13% 0%; */
 }
 nav{
     display:inline-block;
@@ -40,6 +42,9 @@ a{
     display:inline-block;
     background-color:#FF764E;
 }
+.plan:hover{
+    background:rgb(241, 218, 7);
+}
 .guide{
     display:inline-block;
     padding:1.5%;
@@ -51,27 +56,79 @@ a{
     background-color:#5ED3EB;
     margin:0 20%;
 }
+.learn:hover{
+    background-color:slateblue;
+}
 .here{
     display:inline-block;
     background-color:#FFCD69;
+}
+.here:hover{
+    background-color:rgb(39, 206, 89)
 }
 .stuff{
     display:inline-block;
     color:white;
     background-color:#DDB9A3;
-    width: 85%;
-    padding:1%;
-    margin:5%;
+    width: 80%;
+    margin:-8% 10% 2%;
+    padding:0 5% 0 5%;
 }
 .top img{
     display:inline-block;
     width:20%;
     height:auto;
-    margin:5%;
+    margin:3% 0 0 4%;
+    border-radius:50%;
 }
 .heading{
     display:inline-block;
-    line-height:6rem;
-    margin:0 0 2% 8%;
+    line-height:3rem;
+    margin:0 0 10% 15%;
+    text-align:center;
+    width:60%;
+    line-height:4rem;
+}
+.heading p{
+     padding:0 15%;
+}
+.park{
+    width:60%;
+    margin:0 20%;
+}
+.info{
+    text-align:center;
+}
+.fire img{
+height:25rem;
+width:auto;
+}
+.info p{
+    margin:0 36%;
+    width:28%;
+    height:auto;
+}
+.camping{
+    text-align:center;
+}
+.camping img{
+    height:25rem;
+width:auto;
+padding:3% 0 0 0;
+}
+.camping p{
+    margin:0 36%;
+    width:29%;
+    height:auto;
+}
+.end img{
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% 35%;
+    width: 100%;
+    padding:3% 0 0 0;
+}
+footer nav{
+    background-color:#F9E7DC;
 }
 
